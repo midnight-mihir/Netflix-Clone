@@ -507,3 +507,39 @@ footer {
 .faq-child-paras p{
     padding-bottom: 10px;
 }
+
+/*media queries*/
+
+@media screen and (max-width: 768px) {
+    body{
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+    }
+    .header-top{
+        width: 100vw;
+        top: 0;
+        left: 0;
+        border: 1px solid white;
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-top img{
+        width: 70px;
+        border: 1px solid white;
+    }
+
+    .sign-in-btn{
+        border: 1px solid white;
+        font-size: 10px;
+    }
+    .language-select{
+        font-size: 6px;
+    }
+
+    .sign-in-btn button{
+        font-size: 6px;
+    }
+}
