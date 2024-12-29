@@ -250,7 +250,7 @@ main {
     width: 180px;
     height: 250px;
     cursor: pointer;
-    background-color: #fff;
+    /*background-color: #fff;*/
     border-radius: 10px;
 }
 .box img{
@@ -263,13 +263,6 @@ main {
     transition: .2s ease-in-out;
 }
 
-.box a {
-    text-decoration: none;
-    color: white;
-    font-size: 50px;
-    text-align: center;
-}
-
 .re-boxes {
     /* border: 1px solid white; */
     padding: 30px 0;
@@ -279,14 +272,12 @@ main {
 }
 
 .re-box {
-    border: 1px solid white;
-    background-image: linear-gradient(to right, #000a7a73, #ff141830);
-    ;
+    background: linear-gradient( 149deg, #192247 0%, #210e17 96.86% );
     width: 400px;
     height: 300px;
     cursor: pointer;
-    background-color: #111;
-    border-radius: 10px;
+    /*background-color: #111;*/
+    border-radius: 20px;
     padding: 20px;
 
 }
@@ -296,9 +287,15 @@ main {
     transition: .2s ease-in-out;
 }
 
+
 .re-box h2,
 p {
     margin-top: 20px;
+}
+
+.re-box2 h2 {
+    width: 100%;
+    /*border: 1px solid white;*/
 }
 
 /*faq boxes*/
